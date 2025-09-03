@@ -17,7 +17,7 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand-dark.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand.jpg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand.jpg">
   <!-- Explicit width for brand/banner; height auto-keeps aspect ratio -->
   <img alt="Oritech Brand" src="./assets/brand.jpg" width="1200" />
