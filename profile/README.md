@@ -5,14 +5,22 @@
 
 <p align="center">
   <a href="https://oriteche.com/">
-    <img src="./assets/logo.jpg" alt="Oritech Logo" width="120" />
+    <img
+      src="./assets/logo.jpg"
+      alt="Oritech Logo"
+      width="140"
+      height="140"
+      style="border-radius:50%; object-fit:cover;"
+      loading="lazy" decoding="async"
+    />
   </a>
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand.jpg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/logo.jpg">
-  <img alt="Oritech Banner" src="./assets/logo.jpg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/brand-dark.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/brand.jpg">
+  <!-- Explicit width for brand/banner; height auto-keeps aspect ratio -->
+  <img alt="Oritech Brand" src="./assets/brand.jpg" width="1200" />
 </picture>
 
 <h1 align="center">🌟 Oritech — Smart Systems & Digital Transformation 🚀</h1>
