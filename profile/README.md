@@ -4,16 +4,13 @@
 -->
 
 <p align="center">
-  <a href="https://oriteche.com/">
-    <img
-      src="./assets/logo.jpg"
-      alt="Oritech Logo"
-      width="140"
-      height="140"
-      style="border-radius:50%; object-fit:cover;"
-      loading="lazy" decoding="async"
-    />
-  </a>
+  <!-- Round logo using SVG clipPath on your raster logo (works on GitHub; no CSS needed) -->
+  <svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Oritech Logo">
+    <defs>
+      <clipPath id="avatarClip"><circle cx="60" cy="60" r="60"/></clipPath>
+    </defs>
+    <image href="./assets/logo.jpg" width="120" height="120" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+  </svg>
 </p>
 
 <picture>
@@ -21,7 +18,7 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/brand.jpg">
   <!-- Explicit width for brand/banner; height auto-keeps aspect ratio -->
   <img alt="Oritech Brand" src="./assets/brand.jpg"  width="1200"
-    height="300"
+    height="500"
     style="max-width:100%; height:auto;"
     loading="lazy" decoding="async" />
 </picture>
