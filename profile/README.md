@@ -3,15 +3,18 @@
   Place your real logo/banner images in ./assets and update paths if needed.
 -->
 
-<p align="center">
-  <!-- Round logo using SVG clipPath on your raster logo (works on GitHub; no CSS needed) -->
-  <svg width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Oritech Logo">
-    <defs>
-      <clipPath id="avatarClip"><circle cx="60" cy="60" r="60"/></clipPath>
-    </defs>
-    <image href="./assets/logo.jpg" width="120" height="120" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
-  </svg>
-</p>
+<!-- <p align="center">
+  <a href="https://oriteche.com/">
+    <img
+      src="./assets/logo.jpg"
+      alt="Oritech Logo"
+      width="140"
+      height="140"
+      style="border-radius:50%; object-fit:cover;"
+      loading="lazy" decoding="async"
+    />
+  </a>
+</p> -->
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/brand.jpg">
